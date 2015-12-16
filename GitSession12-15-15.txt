@@ -1,0 +1,63 @@
+Michael@DESKTOP-5DVKS6F MINGW64 ~
+$ cd document
+bash: cd: document: No such file or directory
+
+Michael@DESKTOP-5DVKS6F MINGW64 ~
+$ cd Documents/
+
+Michael@DESKTOP-5DVKS6F MINGW64 ~/Documents
+$ cd devCodeCampProjects/
+
+Michael@DESKTOP-5DVKS6F MINGW64 ~/Documents/devCodeCampProjects
+$ cd Story/
+
+Michael@DESKTOP-5DVKS6F MINGW64 ~/Documents/devCodeCampProjects/Story
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+Michael@DESKTOP-5DVKS6F MINGW64 ~/Documents/devCodeCampProjects/Story
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+Michael@DESKTOP-5DVKS6F MINGW64 ~/Documents/devCodeCampProjects/Story
+$ pwd
+/c/Users/Michael/Documents/devCodeCampProjects/Story
+
+Michael@DESKTOP-5DVKS6F MINGW64 ~/Documents/devCodeCampProjects/Story
+$ cd Short-Story-12-15-15/
+
+Michael@DESKTOP-5DVKS6F MINGW64 ~/Documents/devCodeCampProjects/Story/Short-Story-12-15-15 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+Michael@DESKTOP-5DVKS6F MINGW64 ~/Documents/devCodeCampProjects/Story/Short-Story-12-15-15 (master)
+$ git add "short story 12-15-15.txt"
+
+Michael@DESKTOP-5DVKS6F MINGW64 ~/Documents/devCodeCampProjects/Story/Short-Story-12-15-15 (master)
+$ git commit -m "commit Charlie edits"
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+Michael@DESKTOP-5DVKS6F MINGW64 ~/Documents/devCodeCampProjects/Story/Short-Story-12-15-15 (master)
+$ git push origin master
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 2.36 KiB | 0 bytes/s, done.
+Total 11 (delta 5), reused 0 (delta 0)
+To https://github.com/Charlesciezki/Short-Story-12-15-15
+   c544902..473b190  master -> master
+
+Michael@DESKTOP-5DVKS6F MINGW64 ~/Documents/devCodeCampProjects/Story/Short-Story-12-15-15 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+Michael@DESKTOP-5DVKS6F MINGW64 ~/Documents/devCodeCampProjects/Story/Short-Story-12-15-15 (master)
+$

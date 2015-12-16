@@ -1,0 +1,15 @@
+my_variable = ""
+
+
+echo 
+rem shut down 
+@echo off
+set /p id=Enter ID: 
+echo %id%
+jstack > jstack.txt
+SET /P variable=[promptString]
+echo The blatfizz command failed. This means that the world as 
+echo we know it is about to end, or, that the input file needs to
+echo be corrected.
+pause
+exit /b
